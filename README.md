@@ -15,8 +15,7 @@ boolean: true
 List
 
 fruits:
-
-     - Apple
+ - Apple
     
      - Orange
     
@@ -25,7 +24,6 @@ fruits:
 Dictionary
 
 person:
-
   name: John Doe
   
   age: 30
