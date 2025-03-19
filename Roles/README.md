@@ -14,7 +14,7 @@
 
  # tree Structure:
  
- '''
+ ```
  <role_name>/
   ├── defaults/
   │   └── main.yml
@@ -28,4 +28,4 @@
   ├── templates/
   ├── vars/
       └── main.yml
-'''
+```
