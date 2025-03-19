@@ -14,8 +14,10 @@ boolean: true
 
 List
 
+
 fruits:
- - Apple
+
+     - Apple
     
      - Orange
     
@@ -23,7 +25,9 @@ fruits:
 
 Dictionary
 
+
 person:
+
   name: John Doe
   
   age: 30
@@ -33,9 +37,12 @@ person:
 List of dictionaries
 YAML allows nesting of lists and dictionaries to represent more complex data.
 
+
 family:
 
+ 
   parents:
+   
     - name: Jane
     
       age: 50
