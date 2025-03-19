@@ -16,11 +16,11 @@ List
 
 fruits:
 
-   - Apple
+     - Apple
     
-   - Orange
+     - Orange
     
-   - Banana
+     - Banana
 
 Dictionary
 
