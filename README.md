@@ -4,17 +4,17 @@ YAML (YAML Ain't Markup Language) is a human-readable data serialization format 
 YAML Syntax
 
 Strings, Numbers and Booleans:
-
+```
 string: Hello, World!
 
 number: 42
 
 boolean: true
 
-
+```
 List
 
-
+```
 fruits:
 
      - Apple
@@ -22,10 +22,10 @@ fruits:
      - Orange
     
      - Banana
-
+```
 Dictionary
 
-
+```
 person:
 
   name: John Doe
@@ -33,11 +33,11 @@ person:
   age: 30
   
   city: New York
-
+```
 List of dictionaries
 YAML allows nesting of lists and dictionaries to represent more complex data.
 
-
+```
 family:
 
  
@@ -59,3 +59,4 @@ family:
     - name: Jenny
     
       age: 20
+``
