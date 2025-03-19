@@ -6,7 +6,9 @@ YAML Syntax
 Strings, Numbers and Booleans:
 
 string: Hello, World!
+
 number: 42
+
 boolean: true
 
 
