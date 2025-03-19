@@ -39,9 +39,7 @@ YAML allows nesting of lists and dictionaries to represent more complex data.
 
 ```
 family:
-
- 
-  parents:
+   parents:
    
     - name: Jane
     
@@ -59,4 +57,4 @@ family:
     - name: Jenny
     
       age: 20
-``
+```
