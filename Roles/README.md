@@ -1,9 +1,13 @@
-Create a role 
+# Create a role 
 
-ansible-galaxy role init httpd
+ ansible-galaxy role init httpd
 
-ls -ltr httpd
+ ls -ltr httpd
 
-cd httpd
+ cd httpd
 
-ls
+ ls
+
+ cd ../..
+
+ ansible-playbook first-playbook.yml
