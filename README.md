@@ -16,11 +16,11 @@ List
 
 fruits:
 
-  - Apple
+   - Apple
     
-  - Orange
+   - Orange
     
-  - Banana
+   - Banana
 
 Dictionary
 
@@ -38,7 +38,6 @@ YAML allows nesting of lists and dictionaries to represent more complex data.
 family:
 
   parents:
-  
     - name: Jane
     
       age: 50
@@ -48,7 +47,6 @@ family:
       age: 52
       
   children:
-  
     - name: Jimmy
     
       age: 22
