@@ -1,0 +1,2 @@
+ec2_access_key:  #create access key in amazon IAM user and create access key
+ec2_secret_key:
