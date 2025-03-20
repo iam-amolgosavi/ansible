@@ -18,6 +18,6 @@ ubuntu@: This is the username (ubuntu) and the IP address of the remote server y
 
 1) Go to the file ```/etc/ssh/sshd_config.d/60-cloudimg-settings.conf```
 
-2) Update PasswordAuthentication yes
+2) Update ```PasswordAuthentication yes```
 
 3)Restart SSH -> ```sudo systemctl restart ssh```
