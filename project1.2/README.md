@@ -1,7 +1,8 @@
 # Referrencing purpose if multiple linux machines like Unutu,amazonlinux,redhat 
 # /etc/asible/hosts file
 
-```[ubuntu_servers]
+```
+[ubuntu_servers]
 ubuntu_host1 ansible_host=3.149.239.98
 ubuntu_host2 ansible_host=13.59.51.63
 
