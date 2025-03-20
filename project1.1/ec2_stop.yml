@@ -1,0 +1,8 @@
+---
+- hosts: all
+  become: true
+  tasks:
+    - name: shut down ubuntu instances only
+      ansible.builtin.command: /sbin/shutdown -t now
+      when:
+        ansible_facts['os.family'] == "Debian"
