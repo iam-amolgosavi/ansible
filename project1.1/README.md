@@ -18,4 +18,4 @@ Set up passwordless authentication between Ansible control node and newly create
 
 utomate the shutdown of Ubuntu Instances only using Ansible Conditionals
 
-Hint: Use when condition on ansible gather_facts
+Hint: Use ``` when ``` condition on ansible ``` gather_facts ```
