@@ -2,7 +2,7 @@
 - hosts: all
   become: true
   tasks:
-    - name: make sure the package openssh and openssl are upto data
+    - name: make sure the package openssh and openssl are upto date
       ansible.builtin.apt:
         name: "{{ item }}"
         state: latest
