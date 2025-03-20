@@ -1,0 +1,30 @@
+---
+- hosts: dev
+  become: true
+  tasks:
+    - name: Install Apache
+      ansible.builtin.apt: # Or ansible.builtin.yum, depending on your OS.
+        name: apache2 # Or httpd
+        state: present
+
+- hosts: stg
+  become: true
+  tasks:
+    - name: Install MySQL Server
+      ansible.builtin.apt: # Or ansible.builtin.yum
+        name: mysql-server # Or mariadb-server
+        state: present
+
+- hosts: all
+  become: true
+  tasks:
+    - name: update all packages
+      ansible.builtin.apt:
+        update_cache: yes
+      when: ansible_facts['os_family'] == "Debian"
+      ignore_errors: yes
+
+    - name: update all packages
+      ansible.builtin.yum:
+        update_cache: yes
+      when: ansible_facts['os_family'] == "RedHat"
