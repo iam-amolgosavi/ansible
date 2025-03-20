@@ -27,4 +27,5 @@ ansible_python_interpreter=/usr/bin/python3
 [redhat_servers:vars]
 ansible_user=root # or a specific user on your redhat machines.
 ansible_ssh_private_key_file=/home/ubuntu/keys/redhat-key.pem
-ansible_python_interpreter=/usr/bin/python3```
+ansible_python_interpreter=/usr/bin/python3
+```
